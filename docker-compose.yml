@@ -4,7 +4,8 @@ services:
 
 
         notebook:
-                image: jupyter/datascience-notebook
+                build: .
+                image: kaggle
                 restart: always
                 ports:
                         - 8888:8888

@@ -1,8 +1,8 @@
-Requirements:
+#Requirements:
 
-jupyter/datascience-notebook
+docker-compose build
 
-To run:
+#To run:
 
 docker-compose up
 
